@@ -32,7 +32,7 @@ function App() {
         })
         .catch(e => { setLoading(false); console.error('Ошибка:', e); });
     },
-    [userNotFound]
+    [userNotFound, hideInitial]
   );
 
   return (
