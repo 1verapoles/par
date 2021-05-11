@@ -1,0 +1,38 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  outline: 0 !important;
+  zoom: 1;
+}
+
+html {
+ -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+     -ms-text-size-adjust: 100%;
+         text-size-adjust: 100%; 
+}
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+  /*overflow-x: hidden;*/
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #808080;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  height: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
